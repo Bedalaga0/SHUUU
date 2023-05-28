@@ -1,0 +1,49 @@
+img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 70px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(197, 213, 255) ;
+    margin-top: 60px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.card_content{
+    margin-left: 50px;
+}
+
+h1{
+    font-size: 50px;
+    background-color: rgb(103, 140, 235);
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: radial-gradient(100% 100%, rgb(31, 22, 167), rgb(132, 200, 255));
+}
+
+button{
+    width: 390px;
+    border-radius: 50px;
+    height: 40px;
+    border: 0;
+    background-color: rgb(42, 202, 194);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+body.dark-theme{
+    background: radial-gradient(100% 100%, rgb(4, 44, 75), rgb(71, 65, 158));
+}
+
+body.dark-theme .card{
+    background-color: rgb(88, 83, 117);
+}
